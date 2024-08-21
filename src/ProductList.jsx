@@ -251,6 +251,8 @@ const handlePlantsClick = (e) => {
   };
 
     const [addedToCart, setAddedToCart] = useState({});
+    const dispatch = useDispatch();
+ 
 
     const handleAddToCart = (product) => {
     dispatch(addItem(product));
