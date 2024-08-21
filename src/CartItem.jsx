@@ -43,7 +43,7 @@ const CartItem = ({ onContinueShopping }) => {
     return item.quantity * Number(item.cost.replace(/[$]+/g, ""));
   };
 
-  const handleCheckoutShopping = (e) => {
+  const handleCheckoutShopping = () => {
     alert('Functionality to be added for future reference');
   };
 
